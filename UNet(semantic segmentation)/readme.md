@@ -8,6 +8,7 @@
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
 * [Image Prediction and result output](#Image-Prediction-and-result-output)
+* [Results](#Results)
 
 
 
@@ -104,8 +105,8 @@ usage: py Predict_masks.py -s 256
 The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show to us some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some examples of predicted test images.
 In the end the script will check all 65 test images, predict masks and output results into the folder [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output).
 
-#### Results
-[(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
-[(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
+### Results
+![(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
+![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
 
