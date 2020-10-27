@@ -46,7 +46,7 @@ options, args = parser.parse_args()
 if options.ims not in [64, 128, 256] or \
         options.ch not in [0.5, 1, 2] or \
         options.ep >= 50 or options.ep <= 5:
-    print('Wrong input. -s[64, 128, 256], -c[1, 2, 3] 5<Epochs<50')
+    print('Wrong input. -s[64, 128, 256], -c[1, 2, 3], 5<Epochs<50')
     print('Script Terminated!')
     exit()
 print('Chosen options:')
