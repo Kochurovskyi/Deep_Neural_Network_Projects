@@ -68,11 +68,11 @@ To run correctly the script you should decide which parameters of Model running 
 * **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size x Image size). Available options [64, 128, 256]
 * **Channel rate**. Normally U-net architecture contain layers with channel size from 32 to 512, but to save a time during experiments there is an option to reduce/increase channel quantities dividing (multiplicating) by 2. Available options   [0.5 , 1, 2]
 * **Epochs**. Epoch number while model running.  Available options   5 < EPOCHS < 50
-#### How to run Train.py / predict_masks.py:
+#### How to run Train.py / Predict_masks.py:
 <pre><code>
 usage:  
 Train.py [-s Image Size] [-c Channel rate] [-e EPOCHS]
-predict_masks.py [-s Image Size]
+Predict_masks.py [-s Image Size]
 </code></pre>
 Sample Command for **Train.py**
 <pre><code>
