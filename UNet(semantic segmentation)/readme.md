@@ -19,6 +19,10 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 
 ### Project Structure
 * Folder with input data [(**‘/input/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input)
+* Folder with output data [(**‘/input/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output)
+* Some miscellaneous data  [(**‘/output/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/ misc_items)
+* Exploratory Data Analysis Jupiter Notebook [(**‘/EDA.ipynb/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/ EDA.ipynb)
+
 
 
 ### Model Description
