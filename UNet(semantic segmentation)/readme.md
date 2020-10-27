@@ -7,8 +7,8 @@
 * [Accuracy Metrics](#Accuracy-Metrics)
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
-* [Image Prediction and result output](# Image-Prediction-and-result-output)
-* [Results](# Results)
+* [Image Prediction and result output](#Image-Prediction-and-result-output)
+* [Results](#Results)
 
 
 
