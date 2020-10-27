@@ -18,7 +18,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 ![Spot Nuclei. Speed Cures.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/dsb.jpg)
 
 ### Project Structure
-* Folder with input data [(**‘/input/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input
+* Folder with input data [(**‘/input/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input)
 
 
 ### Model Description
