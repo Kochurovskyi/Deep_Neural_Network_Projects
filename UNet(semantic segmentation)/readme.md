@@ -40,7 +40,7 @@ For our task experiencely the best option is UNet Architecture of Convolutional 
 ![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
 
 ### Accuracy Metrics
-For our task as accuracy metric was decided to choose **DICE** coefficient.
+It was decided to choose **DICE** coefficient as an accuracy metric for semantic segmentation. 
 The Dice coefficient (DICE), also called the overlap index, is the most used metric in validating medical volume segmentations. In addition to the direct comparison between automatic and ground truth segmentations, it is common to use the DICE to measure reproducibility (repeatability). Using the DICE as a measure of the reproducibility as a statistical validation of manual annotation where segmenters repeatedly annotated the same MRI image, then the pair-wise overlap of the repeated segmentations is calculated using the DICE, which is defined by
 
 ![Form](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/Dice_fmr.png)
