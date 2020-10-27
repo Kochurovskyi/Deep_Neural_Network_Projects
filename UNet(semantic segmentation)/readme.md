@@ -109,5 +109,13 @@ In the end the script will check all 65 test images, predict masks and output re
 ![(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
 ![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
-On the pictures we see not bad results, but definitely there is a huge room for improvement. Even accuracy score reached 96.6% on the picture is clearly seen that not all nuclease where detected even 96% correctly. I’m sure in Biomedicine where people lives depend on these results this will be not enough   
-
+On the pictures we see not bad results, but definitely there is a huge room for experiments and improvement. Even accuracy score reached 96.6% on the picture is clearly seen that not all nuclease where detected even 96% correctly. I’m sure in Biomedicine where people lives depend on these results this will be not enough.
+So, for the further performance improvement it would be nice to try:
+Image Preprocessing:
+*    Image Augmentation
+* Color (Incl. background) adjustment
+* implement edge detection algorithm 
+Model Adjustment: 
+* Implement more channels in each layer
+* Implement ResNet blocks 
+* Meanwhile model complicity grows try to implement Dropout 
