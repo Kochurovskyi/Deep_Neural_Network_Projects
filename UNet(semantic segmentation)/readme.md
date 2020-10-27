@@ -4,6 +4,7 @@
 * [Introduction](#Introduction)
 * [Project Structure](#Project-Structure)
 * [Model Description](#Model-Description)
+* [Accuracy Metrics](#Accuracy-Metrics)
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
 
@@ -34,6 +35,13 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 For our task experiencely the best option is U-net Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures in electron microscopic stacks.
 
 ![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
+
+### Accuracy Metrics
+For our task as accuracy metric was decided to choose **DICE** coefficient.
+The Dice coefficient (DICE), also called the overlap index, is the most used metric in validating medical volume segmentations. In addition to the direct comparison between automatic and ground truth segmentations, it is common to use the DICE to measure reproducibility (repeatability). Using the DICE as a measure of the reproducibility as a statistical validation of manual annotation where segmenters repeatedly annotated the same MRI image, then the pair-wise overlap of the repeated segmentations is calculated using the DICE, which is defined by
+
+![Form](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/Dice_fmr.png)
+
 
 ### Requirements 
 This implementation is developed using:
