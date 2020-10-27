@@ -94,7 +94,7 @@ As a result the script will save the loss/accuracy to plot file **hist.png** and
 
 ### Image Prediction and result output
 
-To get the prediction we need to run script **Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
+To get the prediction you need to run script **Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
 Sample Command for **Predict_masks.py**: 
 
 <pre><code>
@@ -102,7 +102,7 @@ usage: py Predict_masks.py -s 256
 </code></pre>
 
 
-The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show to us some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some example of predicted test images.
+The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some example of predicted test images.
 Finally the script will check all 65 test images, predict masks and output results into the folder [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output).
 
 ### Results and Conclusion
