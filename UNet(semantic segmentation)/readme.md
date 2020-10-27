@@ -1,7 +1,8 @@
 # Spot Nuclei. Speed Cures.
 ## Identifying the cells’ nuclei using Convolutional Neural Network (UNet Architecure)
 ### Table of Contents
-* Introduction
+* [Introduction](#Introduction)
+* Model Description
 * Requirements
 * Model Description
 
