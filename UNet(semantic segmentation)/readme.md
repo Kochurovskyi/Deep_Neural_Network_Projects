@@ -2,7 +2,7 @@
 ## Identifying the cells’ nuclei using Convolutional Neural Network (UNet Architecure)
 ### Table of Contents
 * [Introduction](#Introduction)
-* Model Description
+* [Model Description](#Model Description)
 * Requirements
 * Model Description
 
