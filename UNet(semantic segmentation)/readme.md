@@ -2,7 +2,7 @@
 ## Identifying the cells’ nuclei using Convolutional Neural Network (UNet Architecure)
 ### Table of Contents
 * [Introduction](#Introduction)
-* [Model Description](#Model_Description)
+* [Model Description](#Model-Description)
 * Requirements
 * Model Description
 
@@ -16,7 +16,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 
 ![Spot Nuclei. Speed Cures.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/dsb.jpg)
 
-### [Model Description](#Model_Description)
+### Model Description
 #### U-Net: Convolutional Networks for Biomedical Image Segmentation.
 For our task the experiencely the best option is U-net Architecture of  Convolutional Networks
 The u-net is convolutional network architecture for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks.
