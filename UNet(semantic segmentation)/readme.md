@@ -35,4 +35,4 @@ This implementation is developed using:
 * pandas==1.1.2
 If **pip** is set up on your system, those packages should be able to be fetched and installed by running
 
-**pip install -r requirements.txt*)
+**pip install -r requirements.txt**
