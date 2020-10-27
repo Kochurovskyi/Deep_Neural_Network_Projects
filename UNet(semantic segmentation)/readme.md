@@ -111,10 +111,12 @@ In the end the script will check all 65 test images, predict masks and output re
 
 On the pictures we see not bad results, but definitely there is a huge room for experiments and improvement. On the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . I’m sure in Biomedicine where people's lives depend on these results this will be not enough.
 So, for the further performance improvement it would be nice to try:
+
 Image Preprocessing:
 *    Image Augmentation
 * Color (Incl. background) adjustment
 * implement edge detection algorithm 
+
 Model Adjustment: 
 * Implement more channels in each layer
 * Implement ResNet blocks 
