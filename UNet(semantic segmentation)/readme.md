@@ -121,3 +121,5 @@ Model Adjustment:
 * Implement more channels in each layer
 * Implement ResNet blocks 
 * Meanwhile model complicity grows try to implement Dropout 
+
+and more, and more, and more ...
