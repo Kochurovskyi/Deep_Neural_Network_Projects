@@ -5,7 +5,7 @@
 * [Project Structure](#Project-Structure)
 * [Model Description](#Model-Description)
 * [Requirements](#Requirements)
-* [Training Run](# Training-Run)
+* [Training Run](#Training-Run)
 
 
 ### Introduction
@@ -31,8 +31,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 
 ### Model Description
 #### U-Net: Convolutional Networks for Biomedical Image Segmentation.
-For our task the experiencely the best option is U-net Architecture of  Convolutional Networks
-The u-net is convolutional network architecture for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional network) on the ISBI challenge for segmentation of neuronal structures in electron microscopic stacks.
+For our task experiencely the best option is U-net Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures in electron microscopic stacks.
 
 ![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
 
@@ -51,3 +50,11 @@ If **pip** is set up on your system, those packages should be able to be fetched
 **pip install -r requirements.txt**
 
 ### Training Run
+<pre><code>
+usage: main.py [-h] [-d DATASET] [--data-dirpath DATA_DIRPATH]
+               [--n-workers N_WORKERS] [--gpu GPU] [-rs RANDOM_SEED]
+               [-a ARCHITECTURE] [-l LOSS] [-b BATCH_SIZE]
+               [-e EPOCHS]  [-lr LEARNING_RATE] [-opt OPTIM] [-m MODEL_NAME]
+               [-r RESUME] [-tf TF_LOGS] [-wd WEIGHT_DECAY]
+               [-dp DROPOUT]
+</code></pre>
