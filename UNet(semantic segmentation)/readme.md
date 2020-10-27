@@ -98,7 +98,7 @@ To get the prediction we need to run script **Predict_masks.py** with option [-s
 Sample Command for **Predict_masks.py**: 
 
 <pre><code>
-usage: py Train.py -s 256 
+usage: py Predict_masks.py -s 256 
 </code></pre>
 
 
