@@ -90,7 +90,17 @@ After a couple experiments it was decided that the best balance performance/time
 ![Log](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training%20log.png)
 ![hist](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/hist.png)
 
+In the end the script will save the loss/accuracy plot file **hist.png** and model itself to the file **my_UNET.h5** which will be opened in the script Predict_masks.py with all parameters for further prediction run.
+
 ### Image Prediction and result output
+
+To get the prediction we need to run script ** Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
+Sample Command for **Predict_masks.py**: 
+
+<pre><code>
+usage: py Train.py -s 256 
+</code></pre>
+
 
 ### Results
 
