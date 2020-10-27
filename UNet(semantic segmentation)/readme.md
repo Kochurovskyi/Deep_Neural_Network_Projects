@@ -25,13 +25,14 @@ The u-net is convolutional network architecture for fast and precise segmentatio
 
 ### Requirements 
 This implementation is developed using:
-optparse==1.5.3
-tqdm 
-skimage==0.17.2
-cv2==4.4.0
-tensorflow==2.3.1
-matplotlib==3.3.2
-numpy==1.18.5
-pandas==1.1.2
-If *pip* is set up on your system, those packages should be able to be fetched and installed by running
-*pip install -r requirements.txt*
+* optparse==1.5.3
+* tqdm 
+* skimage==0.17.2
+* cv2==4.4.0
+* tensorflow==2.3.1
+* matplotlib==3.3.2
+* numpy==1.18.5
+* pandas==1.1.2
+If **pip** is set up on your system, those packages should be able to be fetched and installed by running
+
+**pip install -r requirements.txt*)
