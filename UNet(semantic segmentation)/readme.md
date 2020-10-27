@@ -13,7 +13,7 @@
 
 
 ### Introduction
-This project demonstrates capabilities of DNN (Deep Neural Networks) for Semantic Image Segmentation based on Kaggle Competition 2018 DATA SCIENCE BOWL (https://www.kaggle.com/c/data-science-bowl-2018). The task is related to Biomedical Science and the main goal is to develop a model which will be able to identify a shape of cell’s nuclei reading microscope scaled images.
+This project demonstrates capabilities of DNN (Deep Neural Networks) for Semantic Image Segmentation based on Kaggle Competition 2018 DATA SCIENCE BOWL (https://www.kaggle.com/c/data-science-bowl-2018). The task is related to Biomedical Science where I need to develop a model which will be able to identify a shape of cell’s nuclei reading microscope scaled images.
 Why nuclei?
 
 
@@ -35,7 +35,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 
 ### Model Description
 #### U-Net: Convolutional Networks for Biomedical Image Segmentation.
-For our task experiencely the best option is U-net Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures in electron microscopic stacks.
+For our task experiencely the best option is UNet Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures in electron microscopic stacks.
 
 ![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
 
