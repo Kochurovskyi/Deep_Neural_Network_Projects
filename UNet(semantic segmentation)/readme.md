@@ -35,7 +35,7 @@ Identifying the cells’ nuclei is the starting point for most analyses because 
 
 ### Model Description
 #### UNet: Convolutional Networks for Biomedical Image Segmentation.
-For our task experiencely the best option is UNet Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures in electron microscopic stacks.
+For our task experiencely the best option is UNet Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures) in electron microscopic stacks.
 
 ![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
 
