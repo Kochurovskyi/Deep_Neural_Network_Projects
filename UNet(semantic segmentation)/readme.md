@@ -64,10 +64,10 @@ pip install -r requirements.txt
 </code></pre>
 
 ### Training Run
-To run correctly the script you should decide which parameters of Model running you will choose. There are only a three parameters which will effect performance and running time of the model:
-* **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size X Image size). Available options [64, 128, 256]
+To run correctly the script you should decide which parameters of Model running you will choose. There are only three parameters avalable to be chaged which will effect performance and running time of the model:
+* **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size x Image size). Available options [64, 128, 256]
 * **Channel rate**. Normally U-net architecture contain layers with channel size from 32 to 512, but to save a time during experiments there is an option to reduce/increase channel quantities dividing (multiplicating) by 2. Available options   [0.5 , 1, 2]
-* **Epochs**. Epoch quantity while model running.  Available options   5 < EPOCHS < 50
+* **Epochs**. Epoch number while model running.  Available options   5 < EPOCHS < 50
 #### How to run Train.py / predict_masks.py:
 <pre><code>
 usage:  
