@@ -56,6 +56,7 @@ This implementation is developed using:
 * matplotlib==3.3.2
 * numpy==1.18.5
 * pandas==1.1.2
+
 If **pip** is set up on your system, those packages should be able to be fetched and installed by running
 
 <pre><code>
