@@ -80,7 +80,7 @@ usage: py Train.py -s 256 -c 0.5 -e 20
 </code></pre>
 Sample Command for **Predict_masks.py**
 <pre><code>
-usage: py Train.py -s 256 
+usage: py Predict_masks.py -s 256 
 </code></pre>
 
 #### **!!!Be careful!!! Image size option for Train.py and Predict_masks.py must be the same!!!**
