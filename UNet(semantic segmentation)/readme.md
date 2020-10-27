@@ -2,9 +2,10 @@
 ## Identifying the cells’ nuclei using Convolutional Neural Network (UNet Architecure)
 ### Table of Contents
 * [Introduction](#Introduction)
+* [Project Structure](#Project-Structure)
 * [Model Description](#Model-Description)
 * [Requirements](#Requirements)
-* Model Description
+* [Training Run](# Training-Run)
 
 
 ### Introduction
@@ -15,6 +16,10 @@ Why nuclei?
 Identifying the cells’ nuclei is the starting point for most analyses because most of the human body’s 30 trillion cells contain a nucleus full of DNA, the genetic code that programs each cell. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, the researcher can understand the underlying biological processes at work.
 
 ![Spot Nuclei. Speed Cures.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/dsb.jpg)
+
+### Project Structure
+* Folder with input data [(**‘/input/’**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input
+
 
 ### Model Description
 #### U-Net: Convolutional Networks for Biomedical Image Segmentation.
@@ -36,3 +41,5 @@ This implementation is developed using:
 If **pip** is set up on your system, those packages should be able to be fetched and installed by running
 
 **pip install -r requirements.txt**
+
+### Training Run
