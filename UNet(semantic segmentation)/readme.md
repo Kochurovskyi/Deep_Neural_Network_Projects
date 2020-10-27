@@ -13,7 +13,7 @@
 
 
 ### Introduction
-This project demonstrates capabilities of DNN (Deep Neural Networks) for Semantic Image Segmentation based on Kaggle Competition 2018 DATA SCIENCE BOWL (https://www.kaggle.com/c/data-science-bowl-2018). The task was related to Biomedical Science and the goal was to develop a model which able to identify a shape of cell’s nuclei reading microscope scaled images.
+This project demonstrates capabilities of DNN (Deep Neural Networks) for Semantic Image Segmentation based on Kaggle Competition 2018 DATA SCIENCE BOWL (https://www.kaggle.com/c/data-science-bowl-2018). The task is related to Biomedical Science and the main goal is to develop a model which will be able to identify a shape of cell’s nuclei reading microscope scaled images.
 Why nuclei?
 
 
