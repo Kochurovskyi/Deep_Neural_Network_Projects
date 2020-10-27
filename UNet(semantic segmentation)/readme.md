@@ -106,7 +106,9 @@ The script will prepare (resize) the images from the test set and a couple rando
 In the end the script will check all 65 test images, predict masks and output results into the folder [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output).
 
 ### Results and Conclusion
+#### Train set
 ![(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
+#### Test set
 ![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
 On the pictures we see not bad results, but definitely there is a huge room for experiments and improvement. On the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . I’m sure in Biomedicine where people's lives depend on these results this will be not enough.
