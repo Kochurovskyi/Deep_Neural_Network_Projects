@@ -115,7 +115,7 @@ So, for the further performance improvement it would be nice to try:
 Image Preprocessing:
 *    Image Augmentation
 * Color (Incl. background) adjustment
-* implement edge detection algorithm 
+* Implement edge detection algorithms 
 
 Model Adjustment: 
 * Implement more channels in each layer
