@@ -7,6 +7,9 @@
 * [Accuracy Metrics](#Accuracy-Metrics)
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
+* [Image Prediction and result output](# Image-Prediction-and-result-output)
+* [Results](# Results)
+
 
 
 ### Introduction
@@ -85,4 +88,8 @@ After a couple experiments it was decided that the best balance performance/time
 
 ![Log](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training%20log.png)
 ![hist](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/hist.png)
+
+### Image Prediction and result output
+
+### Results
 
