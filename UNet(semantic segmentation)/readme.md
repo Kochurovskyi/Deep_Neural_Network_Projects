@@ -111,7 +111,7 @@ Finally the script will check all 65 test images, predict masks and output resul
 #### Test set:
 ![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
-At the pictures we can see the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . I’m sure in Biomedicine where people's lives depend on these results this will be not enough.
+At the picture is clearly seen the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . I’m sure in Biomedicine where people's lives depend on these results this will be not enough.
 So, for the further performance improvement it would be nice to try:
 
 Image Preprocessing:
