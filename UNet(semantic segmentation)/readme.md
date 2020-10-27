@@ -47,14 +47,29 @@ This implementation is developed using:
 * pandas==1.1.2
 If **pip** is set up on your system, those packages should be able to be fetched and installed by running
 
-**pip install -r requirements.txt**
+<pre><code>
+pip install -r requirements.txt
+</code></pre>
 
 ### Training Run
+To run correctly the script you should decide which parameters of Model running you will choose. There are only a three parameters which will effect performance and running time of the model:
+* **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size X Image size). Available options [64, 128, 256]
+* **Channel rate**. Normally U-net architecture contain layers with channel size from 32 to 512, but to save a time during experiments there is an option to reduce channel quantities dividing, or multiplication by 2. Available options   [0.5 , 1, 2]
+* **Epochs**. Epoch quantity while model running.  Available options   5 < EPOCHS < 50
+#### How to run main.py / predict_masks.py / keras_train_frcnn.py:
 <pre><code>
-usage: main.py [-h] [-d DATASET] [--data-dirpath DATA_DIRPATH]
-               [--n-workers N_WORKERS] [--gpu GPU] [-rs RANDOM_SEED]
-               [-a ARCHITECTURE] [-l LOSS] [-b BATCH_SIZE]
-               [-e EPOCHS]  [-lr LEARNING_RATE] [-opt OPTIM] [-m MODEL_NAME]
-               [-r RESUME] [-tf TF_LOGS] [-wd WEIGHT_DECAY]
-               [-dp DROPOUT]
+usage: Train.py [-s Image Size] [-c Channel rate] [-e EPOCHS]
 </code></pre>
+#### Sample Command for **Train.py**
+<pre><code>
+usage: py Train.py -s 256 -c 0.5 -e 20
+</code></pre>
+#### Sample Command for **Predict_masks.py**
+<pre><code>
+usage: py Train.py -s 256 
+</code></pre>
+
+#### **!!!Be careful!!! Image size option for Train.py and Predict_masks.py must be the same**
+
+
+
