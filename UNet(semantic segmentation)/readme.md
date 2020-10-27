@@ -74,7 +74,7 @@ usage: py Train.py -s 256
 #### **!!!Be careful!!! Image size option for Train.py and Predict_masks.py must be the same!!!**
 
 After a couple experiments it was decided that the best balance performance/time was reached with Image size 256x256, channels rate 1(nums of channels starts from 32 and reach 512), and 30 epochs while training. Here are results:
+
 ![Log](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training%20log.png)
-And final Loss/Accuracy(Dice) plot:
 ![hist](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/hist.png)
 
