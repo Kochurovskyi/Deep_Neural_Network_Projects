@@ -64,7 +64,7 @@ pip install -r requirements.txt
 </code></pre>
 
 ### Training Run
-To run correctly the script you should decide which parameters of Model running you will choose. There are only three parameters avalable to be chaged which will effect performance and running time of the model:
+To run correctly the script you should decide which parameters of Model running you will choose. There are only three parameters avalable to be changed which will effect performance and running time of the model:
 * **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size x Image size). Available options [64, 128, 256]
 * **Channel rate**. Normally U-net architecture contain layers with channel size from 32 to 512, but to save a time during experiments there is an option to reduce/increase channel quantities dividing (multiplicating) by 2. Available options   [0.5 , 1, 2]
 * **Epochs**. Epoch number while model running.  Available options   5 < EPOCHS < 50
@@ -94,7 +94,7 @@ As a result the script will save the loss/accuracy to plot file **hist.png** and
 
 ### Image Prediction and result output
 
-To get the prediction we need to run script **Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
+To get the prediction you need to run script **Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
 Sample Command for **Predict_masks.py**: 
 
 <pre><code>
@@ -102,7 +102,7 @@ usage: py Predict_masks.py -s 256
 </code></pre>
 
 
-The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show to us some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some example of predicted test images.
+The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some example of predicted test images.
 Finally the script will check all 65 test images, predict masks and output results into the folder [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output).
 
 ### Results and Conclusion
@@ -111,7 +111,7 @@ Finally the script will check all 65 test images, predict masks and output resul
 #### Test set:
 ![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
-At the pictures we can see the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . I’m sure in Biomedicine where people's lives depend on these results this will be not enough.
+At the picture is clearly seen the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . For sure in Biomedicine where people's lives depending on these results this will be not enough.
 So, for the further performance improvement it would be nice to try:
 
 Image Preprocessing:
