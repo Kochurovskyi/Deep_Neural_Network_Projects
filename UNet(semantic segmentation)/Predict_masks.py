@@ -83,7 +83,10 @@ ax[0, 1].axis('off')
 ax[0, 1].set_title('Train Image')
 ax[0, 2].imshow(preds_train_t[0])
 ax[0, 2].axis('off')
-ax[0, 2].set_title('Predicted Image')
+score = model.evaluate(np.expand_dims(X_train[0], axis=0),
+                       np.expand_dims(Y_train[0], axis=0),
+                       verbose=3)
+ax[0, 2].set_title('Predicted. DICE({}%)'.format(round(score[1]*100, 1)))
 ax[1, 0].imshow(X_train[1])
 ax[1, 0].axis('off')
 ax[1, 0].set_title('Real Image')
@@ -92,7 +95,10 @@ ax[1, 1].axis('off')
 ax[1, 1].set_title('Train Image')
 ax[1, 2].imshow(preds_train_t[1])
 ax[1, 2].axis('off')
-ax[1, 2].set_title('Predicted Image')
+score = model.evaluate(np.expand_dims(X_train[1], axis=0),
+                       np.expand_dims(Y_train[1], axis=0),
+                       verbose=3)
+ax[1, 2].set_title('Predicted. DICE({}%)'.format(round(score[1]*100, 1)))
 plt.savefig('training.png')
 plt.show()
 
@@ -114,3 +120,5 @@ for n, id_ in tqdm(enumerate(test_ids), total=len(test_ids)):
     cv2.imwrite('output/' + test_ids[n] + ".png",
                 cv2.resize((preds_test_t[n] * 255), dsize=(512, 512),
                            interpolation=cv2.INTER_LANCZOS4))
+
+
