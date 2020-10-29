@@ -15,8 +15,8 @@ In this course, you will learn the foundations of deep learning. When you finish
 - Understand the key parameters in a neural network's architecture 
  
 1. Week1 - [Introduction to deep learning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning)
-2. Week2 - [Neural Networks Basics](https://github.com/enggen/Deep-Learning-deeplearning.ai/blob/master/Neural%20Networks%20and%20Deep%20Learning/Logistic%20Regression%20with%20a%20Neural%20Network%20mindset.ipynb)
-3. Week3 - [Shallow neural networks](https://github.com/enggen/Deep-Learning-deeplearning.ai/blob/master/Neural%20Networks%20and%20Deep%20Learning/Logistic%20Regression%20with%20a%20Neural%20Network%20mindset.ipynb)
+2. Week2 - [Neural Networks Basics](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%202)
+3. Week3 - [Shallow neural networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%203)
 4. Week4 - [Deep Neural Networks](https://github.com/enggen/Deep-Learning-deeplearning.ai/tree/master/Neural%20Networks%20and%20Deep%20Learning)
 
 ## Course 2. [Improving Deep Neural Networks Hyperparameter tuning, Regularization and Optimization](https://www.youtube.com/watch?v=1waHlpKiNyY&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc)
@@ -26,7 +26,7 @@ In this course, you will learn the foundations of deep learning. When you finish
          - Regularizing your neural network
          - Setting up your optimization problem
 2. Week2 - [Optimization algorithms](https://github.com/enggen/Deep-Learning-deeplearning.ai/tree/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization)
-3. Week3 - [Hyperparameter tuning, Batch Normalization and Programming Frameworks](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization)
+3. Week3 - [Hyperparameter tuning, Batch Normalization and Programming Frameworks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%204)
 
 ## Course 3. [Structuring Machine Learning Projects](https://www.youtube.com/watch?v=dFX8k1kXhOw&list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b)
 
