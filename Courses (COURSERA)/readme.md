@@ -1,10 +1,8 @@
 
-# Deep Learning Specialization on Coursera
-### [Master Deep Learning, and Break into AI](https://www.coursera.org/specializations/deep-learning)
+# [Deep Learning Specialization on Coursera]](https://www.coursera.org/specializations/deep-learning)
+This is my personal achievements at this specialization. The course covers deep learning from begginer level to advanced. Highly recommend anyone wanting to break into AI. 
 
-This is my personal projects for the course. The course covers deep learning from begginer level to advanced. Highly recommend anyone wanting to break into AI. 
-
-Instructor: [Andrew Ng, DeepLearning.ai]()
+Instructor: [Andrew Ng, DeepLearning.ai](https://www.deeplearning.ai/)
 
  ## Course 1. [Neural Networks and Deep Learning](https://www.youtube.com/watch?v=CS4cs9xVecg&list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
  
