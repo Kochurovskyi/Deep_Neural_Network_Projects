@@ -22,3 +22,4 @@
 -   Face Recognition for the Happy House
 -   Art Generation with Neural Style Transfer
  
+![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/cert.png)
