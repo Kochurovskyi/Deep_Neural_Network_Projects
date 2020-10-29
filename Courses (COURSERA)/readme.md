@@ -4,7 +4,7 @@ This is my personal achievements at this specialization. The course covers deep 
 
 Instructor: [Andrew Ng, DeepLearning.ai](https://www.deeplearning.ai/)
 
- ## Course 1. [Neural Networks and Deep Learning](https://www.youtube.com/watch?v=CS4cs9xVecg&list=PLkDaE6sCZn6Ec-XTbcX1uRg2_u4xOEky0)
+ ## Course 1. [Neural Networks and Deep Learning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning)
  
  If you want to break into cutting-edge AI, this course will help you do so. Deep learning engineers are highly sought after, and mastering deep learning will give you numerous new career opportunities. Deep learning is also a new "superpower" that will let you build AI systems that just weren't possible a few years ago. 
 
