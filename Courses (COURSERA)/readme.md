@@ -1,5 +1,5 @@
 
-# [Deep Learning Specialization on Coursera]](https://www.coursera.org/specializations/deep-learning)
+# [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning)
 This is my personal achievements at this specialization. The course covers deep learning from begginer level to advanced. Highly recommend anyone wanting to break into AI. 
 
 Instructor: [Andrew Ng, DeepLearning.ai](https://www.deeplearning.ai/)
