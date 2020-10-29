@@ -22,4 +22,4 @@
 
 Every image required to view correctly the Jupyter Notebooks are stored in `images` folder.
 
-
+![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/cert.png)
