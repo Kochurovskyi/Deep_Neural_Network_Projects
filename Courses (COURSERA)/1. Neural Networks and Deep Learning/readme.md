@@ -8,7 +8,7 @@
 
 ## Week 2:
 - Python Basics With Numpy
-- Logistic Regression with a Neural Network mindset
+- Logistic Regression with a Neural Network mindset ([Practical task](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb)
 
 ## Week 3:
 - Planar data classification with one hidden layer
