@@ -8,7 +8,7 @@
 
 
 ## Week 1:
-Introduction
+- Introduction
 
 ## Week 2:
 - Python Basics With Numpy
