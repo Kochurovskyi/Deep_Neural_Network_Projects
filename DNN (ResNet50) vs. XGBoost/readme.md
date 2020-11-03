@@ -18,13 +18,13 @@ This project demonstrates capabilities of Deep Neural Networks (DNN) for nonline
 ![DNN](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items/hqdefault.jpg)
 
 ### Project Structure
-* Folder with input data [(**/input/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input)
-* Folder with output data [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output)
-* Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/misc_items)
-* Exploratory Data Analysis Jupiter Notebook [(**EDA.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/EDA.ipynb)
-* Data processing & model training script [(**Train.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)
-* Model prediction & result (masks) output script [(**Predict_masks.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Predict_masks.py)
-* Compiled model file [(**my_UNET.h5**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/my_UNET.h5)
+* CSV-file with input data [(**train.csv**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/train.csv)
+* 
+* Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items)
+* Exploratory Data Analysis Jupiter Notebook [(**EDA.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/EDA.ipynb)
+* Model. Training and prediction [(**model.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/model.ipynb)
+* Feature selection script [(**feat_selection.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Predict_masks.py)
+* Profiling script. Prepares EDA html-report [(**profiling.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/profiling.py)
 * Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/requirements.txt)
 
 
