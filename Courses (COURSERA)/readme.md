@@ -25,12 +25,12 @@ This course will teach you the "magic" of getting deep learning to work well. Ra
 
 After 3 weeks, you will: - Understand industry best-practices for building deep learning applications. - Be able to effectively use the common neural network "tricks", including initialization, L2 and dropout regularization, Batch normalization, gradient checking, - Be able to implement and apply a variety of optimization algorithms, such as mini-batch gradient descent, Momentum, RMSprop and Adam, and check for their convergence. - Understand new best-practices for the deep learning era of how to set up train/dev/test sets and analyze bias/variance - Be able to implement a neural network in TensorFlow. This is the second course of the Deep Learning Specialization.
 
-1. Week1 - [Practical aspects of Deep Learning](https://github.com/enggen/Deep-Learning-deeplearning.ai/tree/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization)
+1. Week1 - [Practical aspects of Deep Learning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week5)
          - Setting up your Machine Learning Application
          - Regularizing your neural network
          - Setting up your optimization problem
-2. Week2 - [Optimization algorithms](https://github.com/enggen/Deep-Learning-deeplearning.ai/tree/master/Improving%20Deep%20Neural%20Networks%20Hyperparameter%20tuning%2C%20Regularization%20and%20Optimization)
-3. Week3 - [Hyperparameter tuning, Batch Normalization and Programming Frameworks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%204)
+2. Week2 - [Optimization algorithms](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week6)
+3. Week3 - [Hyperparameter tuning, Batch Normalization and Programming Frameworks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week7)
 
 ## Course 3. [Structuring Machine Learning Projects](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/3.%20Structuring_Machine_Learning_Projects)
 
@@ -38,10 +38,10 @@ You will learn how to build a successful machine learning project. If you aspire
 
 Much of this content has never been taught elsewhere, and is drawn from my experience building and shipping many deep learning products. This course also has two "flight simulators" that let you practice decision-making as a machine learning project leader. This provides "industry experience" that you might otherwise get only after years of ML work experience. After 2 weeks, you will: - Understand how to diagnose errors in a machine learning system, and - Be able to prioritize the most promising directions for reducing error - Understand complex ML settings, such as mismatched training/test sets, and comparing to and/or surpassing human-level performance - Know how to apply end-to-end learning, transfer learning, and multi-task learning I've seen teams waste months or years through not understanding the principles taught in this course. I hope this two week course will save you months of time. This is a standalone course, and you can take this so long as you have basic machine learning knowledge. This is the third course in the Deep Learning Specialization.
 
-1. Week1 - [Introduction to ML Strategy](https://github.com/enggen/Deep-Learning-Coursera/blob/master/Structuring%20Machine%20Learning%20Projects/Week%201%20Quiz%20-%20Bird%20recognition%20in%20the%20city%20of%20Peacetopia%20(case%20study).md)
+1. Week1 - [Introduction to ML Strategy](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/3.%20Structuring_Machine_Learning_Projects)
          - Setting up your goal
          - Comparing to human-level performance
-2. Week2 - [ML Strategy (2)](https://github.com/enggen/Deep-Learning-Coursera/blob/master/Structuring%20Machine%20Learning%20Projects/Week%202%20Quiz%20-%20Autonomous%20driving%20(case%20study).md)
+2. Week2 - [ML Strategy (2)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/3.%20Structuring_Machine_Learning_Projects)
          - Error Analysis
          - Mismatched training and dev/test set
          - Learning from multiple tasks
@@ -53,12 +53,12 @@ Much of this content has never been taught elsewhere, and is drawn from my exper
 
 You will: - Understand how to build a convolutional neural network, including recent variations such as residual networks. - Know how to apply convolutional networks to visual detection and recognition tasks. - Know to use neural style transfer to generate art. - Be able to apply these algorithms to a variety of image, video, and other 2D or 3D data. This is the fourth course of the Deep Learning Specialization.
  
- 1. Week1 - [Foundations of Convolutional Neural Networks](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week1)
- 2. Week2 - [Deep convolutional models: case studies](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week2/ResNets) - Papers for read:  [ImageNet Classification with Deep Convolutional
+ 1. Week1 - [Foundations of Convolutional Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week1)
+ 2. Week2 - [Deep convolutional models: case studies](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week2) - Papers for read:  [ImageNet Classification with Deep Convolutional
 Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-deep-convolutional-neural-networks.pdf), [Very Deep Convolutional Networks For Large-Scale Image Recognition](https://arxiv.org/pdf/1409.1556.pdf)
- 3. [Week3 - Object detection](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week3/Car%20detection%20for%20Autonomous%20Driving) - Papers for read: [You Only Look Once:
+ 3. [Week3 - Object detection](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week3/Car%20detection%20for%20Autonomous%20Driving) - Papers for read: [You Only Look Once:
 Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf), [YOLO](https://arxiv.org/pdf/1612.08242.pdf)
- 4. Week4 - [Special applications: Face recognition & Neural style transfer](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week4) - Papers for read: [DeepFace](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf), [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
+ 4. Week4 - [Special applications: Face recognition & Neural style transfer](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week4) - Papers for read: [DeepFace](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf), [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
  
  ## Course 5. [Sequence Models]()
  
