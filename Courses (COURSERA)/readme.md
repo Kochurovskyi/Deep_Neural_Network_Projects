@@ -39,7 +39,7 @@ In this course, you will learn the foundations of deep learning. When you finish
          - Learning from multiple tasks
          - End-to-end deep learning
          
- ## Course 4. [Convolutional Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/edit/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Network)
+ ## Course 4. [Convolutional Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks)
  
  1. Week1 - [Foundations of Convolutional Neural Networks](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week1)
  2. Week2 - [Deep convolutional models: case studies](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Convolutional%20Neural%20Networks/Week2/ResNets) - Papers for read:  [ImageNet Classification with Deep Convolutional
