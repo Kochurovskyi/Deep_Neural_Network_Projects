@@ -15,10 +15,7 @@
 ### Introduction
 This project demonstrates capabilities of Deep Neural Networks (DNN) for nonlinear Regression task in price prediction. As a dataset was taken a CSV file with 13 features and target **price** and the task was to predict the car price which was in use analyzing another features. Also to compare performance of Deep Neural Networks another model from classic machine learning was used, it was XGBoost.
 
-
-Identifying the cells’ nuclei is the starting point for most analyses because most of the human body’s 30 trillion cells contain a nucleus full of DNA, the genetic code that programs each cell. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, the researcher can understand the underlying biological processes at work.
-
-![Spot Nuclei. Speed Cures.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/dsb.jpg)
+![DNN](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items/hqdefault.jpg)
 
 ### Project Structure
 * Folder with input data [(**/input/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/input)
