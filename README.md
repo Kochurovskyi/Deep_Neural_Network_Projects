@@ -1,5 +1,5 @@
 ### 0. [Courses (Coursera)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA))
-### 1. General Regression Deep Neural Network for price prediction
+### 1. [General Regression Deep Neural Network for price prediction](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/DNN%20(ResNet50)%20vs.%20XGBoost)
 ### 2. [UNet - convolutional neural network for image segmentation](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation))
 ### 3. YOLO - convolutional neural network for object detection
 ### 4. Artificial Neural Network for time series forecasting
