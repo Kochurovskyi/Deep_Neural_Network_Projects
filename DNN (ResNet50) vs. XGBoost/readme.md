@@ -25,15 +25,18 @@ This project demonstrates capabilities of Deep Neural Networks (DNN) for nonline
 * Model. Training and prediction [(**model.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/model.ipynb)
 * Feature selection script [(**feat_selection.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Predict_masks.py)
 * Profiling script. Prepares EDA html-report [(**profiling.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/profiling.py)
-* Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/requirements.txt)
+* Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/DNN%20(ResNet50)%20vs.%20XGBoost)
 
 
 
 ### Model Description
-#### UNet: Convolutional Networks for Biomedical Image Segmentation.
-For our task experiencely the best option is UNet Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures) in electron microscopic stacks.
+#### ResNet50: Deep Residual Learning for Nonlinear Regression.
+For our task we tried to use ResNet50 Architecture as a most powerful network.
 
-![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
+Residual neural network is one of the most successfully applied deep networks  introduces residual shortcut connections and argues that they are indispensable for training very deep convolutional models, since the shortcuts introduce neither extra parameters nor computation complexity and increase the depth of neural network. 
+
+
+![ResNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items/resnet.png)
 
 ### Accuracy Metrics
 It was decided to choose **DICE** coefficient as an accuracy metric for semantic segmentation. 
