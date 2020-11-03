@@ -6,6 +6,10 @@
 - Learn to build a neural network with one hidden layer, using forward propagation and backpropagation.
 - Understand the key computations underlying deep learning, use them to build and train deep neural networks, and apply it to computer vision.
 
+
+## Week 1:
+Introduction
+
 ## Week 2:
 - Python Basics With Numpy
 - Logistic Regression with a Neural Network mindset ([Practical task](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb))
