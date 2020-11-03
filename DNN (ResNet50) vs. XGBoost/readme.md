@@ -1,5 +1,5 @@
-# Spot Nuclei. Speed Cures.
-## Identifying the cells’ nuclei using Convolutional Neural Network (UNet Architecure)
+# DNN (ResNet50) vs. XGBoost.
+## Nonlinear Regression task in price prediction (ResNet50 Architecture)
 ### Table of Contents
 * [Introduction](#Introduction)
 * [Project Structure](#Project-Structure)
