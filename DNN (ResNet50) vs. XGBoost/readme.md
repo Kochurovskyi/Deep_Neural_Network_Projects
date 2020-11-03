@@ -13,8 +13,7 @@
 
 
 ### Introduction
-This project demonstrates capabilities of convolutional DNN (Deep Neural Networks) for Semantic Image Segmentation based on Kaggle Competition 2018 DATA SCIENCE BOWL (https://www.kaggle.com/c/data-science-bowl-2018). The task is related to Biomedical Science where I need to develop a model which will be able to identify a shape of cell’s nuclei reading microscope scaled images.
-Why nuclei?
+This project demonstrates capabilities of Deep Neural Networks (DNN) for nonlinear Regression task in price prediction. As a dataset was taken a CSV file with 13 features and target **price** and the task was to predict the car price which was in use analyzing another features. Also to compare performance of Deep Neural Networks another model from classic machine learning was used, it was XGBoost.
 
 
 Identifying the cells’ nuclei is the starting point for most analyses because most of the human body’s 30 trillion cells contain a nucleus full of DNA, the genetic code that programs each cell. Identifying nuclei allows researchers to identify each individual cell in a sample, and by measuring how cells react to various treatments, the researcher can understand the underlying biological processes at work.
