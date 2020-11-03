@@ -15,15 +15,17 @@
   - Master the process of hyperparameter tuning
   
 ## Week 1:
- - Initialization ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/1.%20Neural%20Networks%20and%20Deep%20Learning/Week%202/Logistic%20Regression%20as%20a%20Neural%20Network/Logistic_Regression_with_a_Neural_Network_mindset_v6a.ipynb))
- - Regularization
- - Gradient Checking
+ - Initialization ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week5/Initialization/Initialization.ipynb))
+ - Regularization ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week5/Regularization/Regularization_v2a.ipynb))
+ - Gradient Checking ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week5/Gradient%20Checking/Gradient%20Checking%20v1.ipynb))
  
  ## Week 2:
--   Optimization methods
+-   Optimization methods ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week6/Optimization_methods_v1b.ipynb))
  
  ## Week 3:
--   Tensorflow Tutorial
+-   Tensorflow Tutorial ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/week7/TensorFlow_Tutorial_v3b.ipynb))
+
+
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/cert.png)
 
 [Video](https://www.youtube.com/watch?v=1waHlpKiNyY&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc)
