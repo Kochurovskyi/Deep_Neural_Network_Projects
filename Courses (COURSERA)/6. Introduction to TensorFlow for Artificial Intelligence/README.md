@@ -10,13 +10,18 @@ The Machine Learning course and Deep Learning Specialization from Andrew Ng teac
   
 ## Week 2:
  - Introduction to Computer Vision
- -  Implement a Deep Neural Network to recognize handwritten digits ([Practical exercise]())
+ -  Implement a Deep Neural Network to recognize handwritten digits ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%202/Exercise2-Question.ipynb))
 
   
 ## Week 3:
+- Enhancing Vision with Convolutional Neural Networks
+- Improving DNN Performance using Convolutions ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%203/Excercise-3-Question.ipynb))
 
   
 ## Week 4:
+ - Using Real-world Images
+  - Handling Complex Images ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%204/Exercise4-Question.ipynb))
+ 
 
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/cert.png)
  
