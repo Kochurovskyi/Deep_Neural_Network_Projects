@@ -10,5 +10,8 @@
   - Take the correct ML Strategic decision based on observations of performances and dataset
   - Understand what multi-task learning and transfer learning are
   - Recognize bias, variance and data-mismatch by looking at the performances of your algorithm on train/dev/test sets
+  
+  (**No Practical exercises**)
+  
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/3.%20Structuring_Machine_Learning_Projects/cert.png)
 [Video](https://www.youtube.com/watch?v=dFX8k1kXhOw&list=PLkDaE6sCZn6E7jZ9sN_xHwSHOdjUxUW_b)
