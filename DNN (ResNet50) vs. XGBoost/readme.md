@@ -15,7 +15,6 @@ This project demonstrates capabilities of Deep Neural Networks (DNN) for nonline
 
 ### Project Structure
 * CSV-file with input data [(**train.csv**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/train.csv)
-* 
 * Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items)
 * Exploratory Data Analysis Jupiter Notebook [(**EDA.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/EDA.ipynb)
 * Model. Training and prediction [(**model.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/model.ipynb)
