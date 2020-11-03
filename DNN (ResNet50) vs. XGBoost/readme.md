@@ -39,10 +39,9 @@ Residual neural network is one of the most successfully applied deep networks  i
 ![ResNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items/resnet.png)
 
 ### Accuracy Metrics
-It was decided to choose **DICE** coefficient as an accuracy metric for semantic segmentation. 
-The Dice coefficient (DICE), also called the overlap index, is the most used metric in validating medical volume segmentations. In addition to the direct comparison between automatic and ground truth segmentations, it is common to use the DICE to measure reproducibility (repeatability). Using the DICE as a measure of the reproducibility as a statistical validation of manual annotation where segmenters repeatedly annotated the same MRI image, then the pair-wise overlap of the repeated segmentations is calculated using the DICE, which is defined by
+The mean absolute percentage error (MAPE) is a statistical measure of how accurate a forecast system is. It measures this accuracy as a percentage, and can be calculated as the average absolute percent error for each time period minus actual values divided by actual values.
 
-![Form](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/Dice_fmr.png)
+![MAPE](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/DNN%20(ResNet50)%20vs.%20XGBoost/misc_items/MAPE.png)
 
 
 ### Requirements 
