@@ -6,11 +6,7 @@
 * [Model Description](#Model-Description)
 * [Accuracy Metrics](#Accuracy-Metrics)
 * [Requirements](#Requirements)
-* [Training Run](#Training-Run)
-* [Image Prediction and result output](#Image-Prediction-and-result-output)
-* [Results and Conclusion](#Results-and-Conclusion)
-
-
+* [Model Run](#Model-Run)
 
 ### Introduction
 This project demonstrates capabilities of Deep Neural Networks (DNN) for nonlinear Regression task in price prediction. As a dataset was taken a CSV file with 13 features and target **price** and the task was to predict the car price which was in use analyzing another features. Also to compare performance of Deep Neural Networks another model from classic machine learning was used, it was XGBoost.
@@ -62,26 +58,7 @@ If **pip** is set up on your system, those packages should be able to be fetched
 pip install -r requirements.txt
 </code></pre>
 
-### Training Run
+### Model Run
 No special requirements or instructions. Just place csv-files into the same folder
 
-### Results and Conclusion
-#### Train set:
-![(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
-#### Test set:
-![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
 
-At the picture is clearly seen the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . For sure in Biomedicine where people's lives depending on these results this will be not enough.
-So, for the further performance improvement it would be nice to try:
-
-Image Preprocessing:
-*    Image Augmentation
-* Color (Incl. background) adjustment
-* Implement edge detection algorithms 
-
-Model Adjustment: 
-* Implement more channels in each layer
-* Implement ResNet blocks 
-* Meanwhile model complicity grows try to implement Dropout 
-
-and more, and more, and more ...
