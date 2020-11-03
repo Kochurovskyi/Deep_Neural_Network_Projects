@@ -75,3 +75,8 @@ You will: - Understand how to build and train Recurrent Neural Networks (RNNs), 
 This course is part of the upcoming Machine Learning in Tensorflow Specialization and will teach you best practices for using TensorFlow, a popular open-source framework for machine learning.
 
 The Machine Learning course and Deep Learning Specialization from Andrew Ng teach the most important and foundational principles of Machine Learning and Deep Learning. This new deeplearning.ai TensorFlow Specialization teaches you how to use TensorFlow to implement those principles so that you can start building and applying scalable models to real-world problems. To develop a deeper understanding of how neural networks work, we recommend that you take the Deep Learning Specialization.
+
+1. Week1 - [A New Programming Paradigm(TensorFlow)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%201)
+2. Week2 - [Introduction to Computer Vision](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%202)
+3. Week3 - [Enhancing Vision with Convolutional Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%203)
+4. Week4 - [Using Real-world Images](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%204)
