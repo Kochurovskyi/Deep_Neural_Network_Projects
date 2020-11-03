@@ -25,3 +25,5 @@
  ## Week 3:
 -   Tensorflow Tutorial
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/2.%20Improving%20Deep%20Neural%20Networks/cert.png)
+
+[Video](https://www.youtube.com/watch?v=1waHlpKiNyY&list=PLkDaE6sCZn6Hn0vK8co82zjQtt3T2Nkqc)
