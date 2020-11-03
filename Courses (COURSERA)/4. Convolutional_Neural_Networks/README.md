@@ -23,3 +23,4 @@
 -   Art Generation with Neural Style Transfer
  
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/cert.png)
+[Video](https://www.youtube.com/watch?v=ArPaAX_PhIs&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF)
