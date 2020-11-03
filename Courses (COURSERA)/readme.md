@@ -53,6 +53,6 @@ Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf), [YOL
  2. Week2 - [Natural Language Processing & Word Embeddings](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Sequence%20Models/Week2)
  3. Week3 - [Sequence models & Attention mechanism](https://github.com/enggen/Deep-Learning-Coursera/tree/master/Sequence%20Models/Week3)
  
-## Course 6. [Introduction to TensorFlow for Artificial Intelligence](https://www.youtube.com/watch?v=IjEZmH7byZQ) 
+## Course 6. [Introduction to TensorFlow for Artificial Intelligence](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/edit/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence) 
 
 
