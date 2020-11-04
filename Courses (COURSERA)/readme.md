@@ -80,3 +80,15 @@ The Machine Learning course and Deep Learning Specialization from Andrew Ng teac
 2. Week2 - [Introduction to Computer Vision](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%202)
 3. Week3 - [Enhancing Vision with Convolutional Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%203)
 4. Week4 - [Using Real-world Images](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence/Week%204)
+
+
+## Course 7. [Convolutional Neural Networks in TensorFlow](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
+
+
+In this course you will learn advanced techniques to improve the computer vision model you built in Course 1. You will explore how to work with real-world images in different shapes and sizes, visualize the journey of an image through convolutions to understand how a computer “sees” information, plot loss and accuracy, and explore strategies to prevent overfitting, including augmentation and dropout. Finally, Course 2 will introduce you to transfer learning and how learned features can be extracted from models. The Machine Learning course and Deep Learning Specialization from Andrew Ng teach the most important and foundational principles of Machine Learning and Deep Learning. This new deeplearning.ai TensorFlow Specialization teaches you how to use TensorFlow to implement those principles so that you can start building and applying scalable models to real-world problems. To develop a deeper understanding of how neural networks work, we recommend that you take the Deep Learning Specialization.
+
+
+1. Week1 - [Attempt the cats vs. dogs Kaggle challenge](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
+2. Week2 - [Augmentation: A technique to avoid overfitting](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
+3. Week3 - [Transfer Learning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
+4. Week4 - [Multiclass Classifications](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
