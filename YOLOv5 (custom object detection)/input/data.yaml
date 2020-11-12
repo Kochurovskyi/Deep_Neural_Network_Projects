@@ -1,0 +1,19 @@
+# Download command:  python -c "from yolov5.utils.google_utils import gdrive_download; gdrive_download('1n_oKgR81BJtqk75b00eAjdv03qVCQn2f','coco128.zip')"
+# Train command: python train.py --data ./data/coco128.yaml
+# Dataset should be placed next to yolov5 folder:
+#   /parent_folder
+#     /coco128
+#     /yolov5
+
+
+# train and val datasets (image directory or *.txt file with image paths)
+train: ./wheat_ds_tr/images/train
+val: ./wheat_ds_tr/images/valid
+#/content/drive/My Drive/ML/yolov5/wheat_ds_tr/images/train
+#/content/drive/My Drive/ML/yolov5/wheat_ds_tr/images/valid
+
+# number of classes
+nc: 1
+
+# class names
+names: ['wheat']
