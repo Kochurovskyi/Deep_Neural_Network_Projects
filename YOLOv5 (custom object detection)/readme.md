@@ -75,3 +75,21 @@ If **pip** is set up on your system, those packages should be able to be fetched
 <pre><code>
 pip install -r requirements.txt
 </code></pre>
+
+### Training Run
+Training Custom YOLOv5 Detector
+To run the training command with the following options:
+- img: define input image size (**1024**)
+- batch: determine batch size (**4**)
+- epochs: define the number of training epochs. (Note: often, 3000+ are common here!) (**20**)
+- data: set the path to our yaml file (**./wheat_ds_tr/data.yaml**)
+- cfg: specify our model configuration (**./wheat_ds_tr/custom_yolov5m.yaml**)
+- weights: specify a custom path to weights (**./wheat_ds_tr/yolov5m.pt**)
+- name: result names (**yolov5s_results**)
+- nosave: only save the final checkpoint (**-**)
+- cache: cache images for faster training (**-**)
+- device: to select the training device, “0” for GPU, and “cpu” for CPU. (**-**)
+First of, I need to be sure I change directory to the root project directory and run in the Noutbook the training command below:
+<pre><code>
+!python train.py --img 1024 --batch 4 --epochs 20 --data ./wheat_ds_tr/data.yaml --cfg ./wheat_ds_tr/custom_yolov5m.yaml --weights ./wheat_ds_tr/yolov5m.pt --name yolov5s_results
+</code></pre>
