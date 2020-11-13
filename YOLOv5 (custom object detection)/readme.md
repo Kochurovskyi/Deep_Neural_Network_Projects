@@ -20,7 +20,7 @@ I am going to demonstrate capabilities of YOLOv5 convolutional Neural Networks f
 ### Project Structure
 * Folder with input data [(**/input/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/input)
 * Folder with data pre-processed data [(**/wheat_yolo_train_data/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/wheat_yolo_train_data)
-* Folder with output data [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)
+* Folder with output data (.txt file with bounding boxes) [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)
 * Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/misc_items)
 * Exploratory Data Analysis Jupiter Notebook [(**EDA.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/EDA_wheat.ipynb)
 * Data processing Jupiter Notebook [(**Pre.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection))
@@ -132,3 +132,7 @@ detect.py - script, going to be run
 <pre><code>
 !python detect.py --weights ./runs/train/exp18_yolov5s_results/weights/best.pt --img 1024 --conf 0.5 --source ./wheat_ds_val/images --save-txt
 </code></pre>
+
+The prediction result contains files with bounding boxes ([(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)) related to each image and images. Some images with detected wheat spikes below:
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/res%2B.jpg" alt="drawing" width="1000"/>
