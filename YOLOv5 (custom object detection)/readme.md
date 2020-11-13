@@ -127,7 +127,7 @@ detect.py - script, going to be run
 - --img (**1024**) - images size
 - --conf (**0.5**) - trashold
 - --source (**./wheat_ds_val/images**) - source of test data
-- --save-txt - options to get bounding boxes for gurther analysis
+- --save-txt - options to get bounding boxes for further analysis
 
 <pre><code>
 !python detect.py --weights ./runs/train/exp18_yolov5s_results/weights/best.pt --img 1024 --conf 0.5 --source ./wheat_ds_val/images --save-txt
