@@ -93,3 +93,30 @@ First of, I need to be sure I change directory to the root project directory and
 <pre><code>
 !python train.py --img 1024 --batch 4 --epochs 20 --data ./wheat_ds_tr/data.yaml --cfg ./wheat_ds_tr/custom_yolov5m.yaml --weights ./wheat_ds_tr/yolov5m.pt --name yolov5s_results
 </code></pre>
+
+**Training logs:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/logs.png" alt="drawing" width="1000"/>
+
+**Training los dynamics:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/logs.png" alt="drawing" width="1000"/>
+
+
+**Training mAP:0.5-0.95 dynamics:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/mAP_05-095.png" alt="drawing" width="1000"/>
+
+
+**Training mAP:0.5 dynamics:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/mAP_05.png" alt="drawing" width="1000"/>
+
+
+**Training Precision:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/prec.png" alt="drawing" width="1000"/>
+
+**Training Recall:**
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/rec.png" alt="drawing" width="1000"/>
