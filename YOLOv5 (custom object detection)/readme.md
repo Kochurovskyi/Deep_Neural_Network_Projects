@@ -136,3 +136,14 @@ detect.py - script, going to be run
 The prediction result contains files with bounding boxes ([**/output/**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)) related to each image. Some images with detected wheat spikes you will find below:
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/res%2B.jpg" alt="drawing" width="1000"/>
+
+
+### Results and Conclusion
+Analyzing training process, loss dynamics, EDA and the results it’s clear that:
+-	Images are taken at different zoom levels. Crop and resize data augmentations to be used for model training.
+-	Images are taken at various lighting conditions. Special filters should be used to address that.
+-	Bounding boxes are messy!
+-	Giant bounding boxes should be filtered out by area and removed before model training.
+-	Micro bounding boxes. These can stay. They won't have much effect on the IOU metric.
+-	Some spikes are not surrounded by a bounding box (missing bounding boxes).
+All this problems with images affect the performance of the model. In fact I reached mean IoU score for 1000 testing images around 0.443 and this result is not the best that Yolo can give us.  This model is just a base model and there a lot of thoughts for furhter improvements. 
