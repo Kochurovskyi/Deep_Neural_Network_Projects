@@ -27,3 +27,9 @@ I am going to demonstrate capabilities of YOLOv5 convolutional Neural Networks f
 * Model training Jupiter Notebook [(**yolov5_wheat.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/yolov5_wheat.ipynb)
 * Model prediction & result output Jupiter Notebook [(**Eval.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/Eval.ipynb)
 * Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/requirements.txt)
+
+### Model Description
+#### YOLOv5: Convolutional Networks for Biomedical Image Segmentation.
+Reference: https://github.com/ultralytics/yolov5
+YOLO “You Only Look Once” is one of the most popular and most favorite algorithms for AI engineers. It always has been the first preference for real-time object detection.
+YOLO v1 was introduced in May 2016 by Joseph Redmon with paper “You Only Look Once: Unified, Real-Time Object Detection.” This was one of the biggest evolution in real-time object detection. And for today i was happy to descover the latest release PyTorch based version of YOLOv5 (3.1) with exceptional improvements. Yolo is free open code model and in this project I used release [3.1](https://github.com/ultralytics/yolov5/releases)
