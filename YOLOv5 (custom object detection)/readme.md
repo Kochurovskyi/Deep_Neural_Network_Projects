@@ -51,7 +51,7 @@ Below I have included a visual example of a ground-truth bounding box versus a p
 
 Computing Intersection over Union can therefore be determined via:
 
-<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/iou_equation.png" alt="drawing" width="100"/>
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/iou_equation.png" alt="drawing" width="200"/>
 
 Due to varying parameters of our model (image pyramid scale, sliding window size, feature extraction method, etc.), a complete and total match between predicted and ground-truth bounding boxes is simply unrealistic.
 
