@@ -146,4 +146,5 @@ Analyzing training process, loss dynamics, EDA and the results it’s clear that
 -	Giant bounding boxes should be filtered out by area and removed before model training.
 -	Micro bounding boxes. These can stay. They won't have much effect on the IOU metric.
 -	Some spikes are not surrounded by a bounding box (missing bounding boxes).
-All this problems with images affect the performance of the model. In fact I reached mean IoU score for 1000 testing images around 0.443 and this result is not the best that Yolo can give us.  This model is just a base model and there a lot of thoughts for furhter improvements. 
+
+All these problems with images affect the performance of the model. In fact I reached mean IoU score for 1000 testing images around 0.443 and this result is not the best that Yolo can give us.  This model is just a base model and there a lot of thoughts for furhter improvements. 
