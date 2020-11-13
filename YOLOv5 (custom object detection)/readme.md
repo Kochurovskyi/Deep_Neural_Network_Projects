@@ -123,11 +123,11 @@ Now I will take my trained model and make inference on test images. For inferenc
 Than, run in my Notebook script with the wollowing opptions:
 
 detect.py - script, going to be run
---weights (**./runs/train/exp18_yolov5s_results/weights/best.pt model weigth after training**)
---img (**1024**) - images size
---conf (**0.5**) - trashold
---source (**./wheat_ds_val/images**) - source of test data
---save-txt - options to get bounding boxes for gurther analysis
+- --weights (**./runs/train/exp18_yolov5s_results/weights/best.pt model weigth after training**)
+- --img (**1024**) - images size
+- --conf (**0.5**) - trashold
+- --source (**./wheat_ds_val/images**) - source of test data
+- --save-txt - options to get bounding boxes for gurther analysis
 
 <pre><code>
 !python detect.py --weights ./runs/train/exp18_yolov5s_results/weights/best.pt --img 1024 --conf 0.5 --source ./wheat_ds_val/images --save-txt
