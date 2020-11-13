@@ -59,3 +59,19 @@ Because of this, we need to define an evaluation metric that rewards predicted b
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/iou_examples.png" alt="drawing" width="300"/>
 
+### Requirements 
+This implementation is developed using:
+
+- matplotlib==3.3.2
+- numpy==1.19.4
+- opencv-python==4.4.0.46
+- pandas==1.1.4
+- tensorflow==2.3.1
+- torch==1.7.0+cu110
+- tqdm==4.51.0
+
+If **pip** is set up on your system, those packages should be able to be fetched and installed by running
+
+<pre><code>
+pip install -r requirements.txt
+</code></pre>
