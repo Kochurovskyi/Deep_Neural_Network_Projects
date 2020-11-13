@@ -33,4 +33,9 @@ I am going to demonstrate capabilities of YOLOv5 convolutional Neural Networks f
 Reference: https://github.com/ultralytics/yolov5
 
 YOLO “You Only Look Once” is one of the most popular and most favorite algorithms for AI engineers. It always has been the first preference for real-time object detection. YOLO v1 was introduced in May 2016 by Joseph Redmon with paper “You Only Look Once: Unified, Real-Time Object Detection.” This was one of the biggest evolution in real-time object detection. And for today i was happy to discover the latest release PyTorch based version of YOLOv5 with exceptional improvements. Yolo is free open code model and in this project I used the version 3.1 released in October'20
-![img](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/social-image.png)
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/social-image.png" alt="drawing" width="500"/>
+
+### Accuracy Metrics
+It was decided to choose a mean average precision values at different intersection over union (IoU) thresholds. The IoU of a set of predicted bounding boxes and ground truth bounding boxes is calculated as:
+![Form](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/iou-fr.png)
