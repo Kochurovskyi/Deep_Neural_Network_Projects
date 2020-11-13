@@ -98,11 +98,6 @@ First of, I need to be sure I change directory to the root project directory and
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/logs.png" alt="drawing" width="1000"/>
 
-**Training los dynamics:**
-
-<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/logs.png" alt="drawing" width="1000"/>
-
-
 **Training mAP:0.5-0.95 dynamics:**
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/mAP_05-095.png" alt="drawing" width="1000"/>
