@@ -133,6 +133,6 @@ detect.py - script, going to be run
 !python detect.py --weights ./runs/train/exp18_yolov5s_results/weights/best.pt --img 1024 --conf 0.5 --source ./wheat_ds_val/images --save-txt
 </code></pre>
 
-The prediction result contains files with bounding boxes ([(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)) related to each image and images. Some images with detected wheat spikes below:
+The prediction result contains files with bounding boxes ([**/output/**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/YOLOv5%20(custom%20object%20detection)/output)) related to each image. Some images with detected wheat spikes you will find below:
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/res%2B.jpg" alt="drawing" width="1000"/>
