@@ -90,6 +90,7 @@ To run the training command with the following options:
 - cache: cache images for faster training (**-**)
 - device: to select the training device, “0” for GPU, and “cpu” for CPU. (**-**)
 First of, I need to be sure I change directory to the root project directory and run in the Noutbook the training command below:
+
 <pre><code>
 !python train.py --img 1024 --batch 4 --epochs 20 --data ./wheat_ds_tr/data.yaml --cfg ./wheat_ds_tr/custom_yolov5m.yaml --weights ./wheat_ds_tr/yolov5m.pt --name yolov5s_results
 </code></pre>
@@ -115,3 +116,19 @@ First of, I need to be sure I change directory to the root project directory and
 **Training Recall:**
 
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/YOLOv5%20(custom%20object%20detection)/misc_items/rec.png" alt="drawing" width="1000"/>
+
+### Image Prediction and result output
+
+Now I will take my trained model and make inference on test images. For inference we invoke those weights along with a conf specifying model confidence (higher confidence required makes less predictions), and a inference source. source can accept a directory of images, individual images, video files, and also a device's webcam port. For source, I have moved all test images to the folder **./wheat_ds_val/images**
+Than, run in my Notebook script with the wollowing opptions:
+
+detect.py - script, going to be run
+--weights (**./runs/train/exp18_yolov5s_results/weights/best.pt model weigth after training**)
+--img (**1024**) - images size
+--conf (**0.5**) - trashold
+--source (**./wheat_ds_val/images**) - source of test data
+--save-txt - options to get bounding boxes for gurther analysis
+
+<pre><code>
+!python detect.py --weights ./runs/train/exp18_yolov5s_results/weights/best.pt --img 1024 --conf 0.5 --source ./wheat_ds_val/images --save-txt
+</code></pre>
