@@ -43,7 +43,8 @@ It was decided to choose a mean average precision values at different intersecti
 
 The metric sweeps over a range of IoU thresholds, at each point calculating an average precision value. The threshold values range from 0.5 to 0.75 with a step size of 0.05. In other words, at a threshold of 0.5, a predicted object is considered a "hit" if its intersection over union with a ground truth object is greater than 0.5.
 The average precision of a single image is calculated as the mean of the above precision values at each IoU threshold
-ntersection over Union (IoU)
+intersection over Union (IoU)
+
 Intersection over Union is a measure of the magnitude of overlap between two bounding boxes (or, in the more general case, two objects). It calculates the size of the overlap between two objects, divided by the total area of the two objects combined. As long as we have these two sets of bounding boxes we can apply Intersection over Union.
 Below I have included a visual example of a ground-truth bounding box versus a predicted bounding box:
 
@@ -89,7 +90,7 @@ To run the training command with the following options:
 - nosave: only save the final checkpoint (**-**)
 - cache: cache images for faster training (**-**)
 - device: to select the training device, “0” for GPU, and “cpu” for CPU. (**-**)
-First of, I need to be sure I change directory to the root project directory and run in the Noutbook the training command below:
+First of, I need to be sure I change directory to the root project directory and run in the Notebook the training command below:
 
 <pre><code>
 !python train.py --img 1024 --batch 4 --epochs 20 --data ./wheat_ds_tr/data.yaml --cfg ./wheat_ds_tr/custom_yolov5m.yaml --weights ./wheat_ds_tr/yolov5m.pt --name yolov5s_results
@@ -120,7 +121,7 @@ First of, I need to be sure I change directory to the root project directory and
 ### Image Prediction and result output
 
 Now I will take my trained model and make inference on test images. For inference we invoke those weights along with a conf specifying model confidence (higher confidence required makes less predictions), and a inference source. source can accept a directory of images, individual images, video files, and also a device's webcam port. For source, I have moved all test images to the folder **./wheat_ds_val/images**
-Than, run in my Notebook script with the wollowing opptions:
+Than, run in my Notebook script with the following options:
 
 detect.py - script, going to be run
 - --weights (**./runs/train/exp18_yolov5s_results/weights/best.pt model weigth after training**)
@@ -147,4 +148,4 @@ Analyzing training process, loss dynamics, EDA and the results it’s clear that
 -	Micro bounding boxes. These can stay. They won't have much effect on the IOU metric.
 -	Some spikes are not surrounded by a bounding box (missing bounding boxes).
 
-All these problems with images affect the performance of the model. In fact I reached mean IoU score for 1000 testing images around 0.443 and this result is not the best that Yolo can give us.  This model is just a base model and there a lot of thoughts for furhter improvements. 
+All these problems with images affect the performance of the model. In fact I reached mean IoU score for 1000 testing images around 0.443 and this result is not the best that Yolo can give us.  This model is just a base model and there a lot of thoughts for further improvements. 
