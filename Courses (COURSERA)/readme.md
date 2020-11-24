@@ -60,15 +60,15 @@ Neural Networks](https://papers.nips.cc/paper/4824-imagenet-classification-with-
 Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf), [YOLO](https://arxiv.org/pdf/1612.08242.pdf)
  4. Week4 - [Special applications: Face recognition & Neural style transfer](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week4) - Papers for read: [DeepFace](https://www.cs.toronto.edu/~ranzato/publications/taigman_cvpr14.pdf), [FaceNet](https://www.cv-foundation.org/openaccess/content_cvpr_2015/papers/Schroff_FaceNet_A_Unified_2015_CVPR_paper.pdf)
  
- ## Course 5. [Sequence Models]()
+ ## Course 5. [Sequence Models](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/5.%20Sequence%20Models)
  
  This course will teach you how to build models for natural language, audio, and other sequence data. Thanks to deep learning, sequence algorithms are working far better than just two years ago, and this is enabling numerous exciting applications in speech recognition, music synthesis, chatbots, machine translation, natural language understanding, and many others.
 
 You will: - Understand how to build and train Recurrent Neural Networks (RNNs), and commonly-used variants such as GRUs and LSTMs. - Be able to apply sequence models to natural language problems, including text synthesis. - Be able to apply sequence models to audio applications, including speech recognition and music synthesis. This is the fifth and final course of the Deep Learning Specialization. deeplearning.ai is also partnering with the NVIDIA Deep Learning Institute (DLI) in Course 5, Sequence Models, to provide a programming assignment on Machine Translation with deep learning. You will have the opportunity to build a deep learning project with cutting-edge, industry-relevant content.
  
- 1. Week1 - [Recurrent Neural Networks]()
- 2. Week2 - [Natural Language Processing & Word Embeddings]()
- 3. Week3 - [Sequence models & Attention mechanism]()
+ 1. Week1 - [Recurrent Neural Networks](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%201)
+ 2. Week2 - [Natural Language Processing & Word Embeddings](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%202)
+ 3. Week3 - [Sequence models & Attention mechanism](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%203)
  
 ## Course 6. [Introduction to TensorFlow for Artificial Intelligence](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/edit/main/Courses%20(COURSERA)/6.%20Introduction%20to%20TensorFlow%20for%20Artificial%20Intelligence) 
 
