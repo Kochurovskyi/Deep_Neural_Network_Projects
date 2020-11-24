@@ -12,11 +12,12 @@
   - Improvise a Jazz Solo with an LSTM_Network ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%201/Jazz%20improvisation%20with%20LSTM/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3a.ipynb))
   
 ## Week 2:
-  - Keras tutorial - Emotion Detection in Images of Faces ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week2/KerasTutorial/Keras_Tutorial_v2a.ipynb))
-  - Residual Networks ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week2/ResNets/Residual_Networks_v2a.ipynb))
+  - Operations on word vectors ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%202/Word%20Vector%20Representation/Operations_on_word_vectors_v2a.ipynb)
+  - Emojify ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%202/Emojify/Emojify_v2a.ipynb)
   
 ## Week 3:
-  - Autonomous driving application - Car detection ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week3/Car%20detection%20for%20Autonomous%20Driving/Autonomous_driving_application_Car_detection_v3a.ipynb))
+  - Neural_machine_translation_with_attention ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%203/Machine%20Translation/Neural_machine_translation_with_attention_v4a.ipynb)
+  - Trigger_word_detection ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%203/Trigger%20word%20detection/Trigger_word_detection_v1a.ipynb)
   
 
 ![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/cert.png)
