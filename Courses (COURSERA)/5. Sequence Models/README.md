@@ -1,15 +1,15 @@
-# Convolutional Neural Networks
-[https://www.coursera.org/learn/convolutional-neural-networks]
+# Sequence Models
+[https://www.coursera.org/learn/nlp-sequence-models/]
 
 ## Objectives:
-  - Learn to implement the foundational layers of CNNs (pooling, convolutions) and to stack them properly in a deep network to solve multi-class image classification problems.
-  - Learn about the practical tricks and methods used in deep CNNs straight from the research papers.
-  - Learn how to apply your knowledge of CNNs to one of the toughest but hottest field of computer vision: Object detection.
-  - Discover how CNNs can be applied to multiple fields, including art generation and face recognition. Implement your own algorithm to generate art and recognize faces!
+- Understand how to build and train Recurrent Neural Networks (RNNs), and commonly-used variants such as GRUs and LSTMs.
+- Be able to apply sequence models to natural language problems, including text synthesis. 
+- Be able to apply sequence models to audio applications, including speech recognition and music synthesis.
 
 ## Week 1:
-  - Convolution model - Step by Step ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week1/Convolution_model_Step_by_Step_v2a.ipynb))
-  - Convolution model - Application ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week1/Convolution_model_Application_v1a.ipynb))
+  - Building your Recurrent Neural Network - Step by Step ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%201/Building%20a%20Recurrent%20Neural%20Network%20-%20Step%20by%20Step/Building_a_Recurrent_Neural_Network_Step_by_Step_v3b.ipynb))
+  - Dinosaurus Island Character level language model ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%201/Dinosaur%20Island%20--%20Character-level%20language%20model/Dinosaurus_Island_Character_level_language_model_final_v3b.ipynb))
+  - Improvise a Jazz Solo with an LSTM_Network ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/Week%201/Jazz%20improvisation%20with%20LSTM/Improvise_a_Jazz_Solo_with_an_LSTM_Network_v3a.ipynb))
   
 ## Week 2:
   - Keras tutorial - Emotion Detection in Images of Faces ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week2/KerasTutorial/Keras_Tutorial_v2a.ipynb))
@@ -18,9 +18,6 @@
 ## Week 3:
   - Autonomous driving application - Car detection ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week3/Car%20detection%20for%20Autonomous%20Driving/Autonomous_driving_application_Car_detection_v3a.ipynb))
   
-## Week 4:
--   Face Recognition ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week4/Face%20Recognition/Face_Recognition_v3a.ipynb))
--   Deep Learning & Art: Neural Style Transfer ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/week4/Neural%20Style%20Transfer/Art_Generation_with_Neural_Style_Transfer_v3a.ipynb))
- 
-![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/4.%20Convolutional_Neural_Networks/cert.png)
-[Video](https://www.youtube.com/watch?v=ArPaAX_PhIs&list=PLkDaE6sCZn6Gl29AoE31iwdVwSG-KnDzF)
+
+![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/5.%20Sequence%20Models/cert.png)
+[Video](https://www.youtube.com/watch?v=_i3aqgKVNQI&list=PLkDaE6sCZn6F6wUI9tvS_Gw1vaFAx6rd6&index=1)
