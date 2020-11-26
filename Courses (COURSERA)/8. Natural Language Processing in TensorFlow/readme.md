@@ -9,18 +9,18 @@ The Machine Learning course and Deep Learning Specialization from Andrew Ng teac
   
 ## Week 2:
  - RNN Models. Introduction
- -  GlobalAveragePooling1D() simple RNN model ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week2/Course_3_Week_2_Exercise_Question.ipynb)
+ -  GlobalAveragePooling1D() simple RNN model ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week2/Course_3_Week_2_Exercise_Question.ipynb))
 
   
 ## Week 3:
-- Transfer Learning
-- Horses vs. humans using Transfer Learning ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow/Exercise_3_Horses_vs_humans_using_Transfer_Learning_Question-FINAL.ipynb))
+- RNN Models. Experiments (GRU, Conv1D, LSTM) ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3/Course_3_Week_3_Lesson_2d.ipynb))
+- RNN Models Advanced ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3/NLP_Course_Week_3_Exercise.ipynb))
 
   
 ## Week 4:
- - Multiclass Classifications
-  - Multiclass Classifications(MNIST signs) ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow/Exercise_4_Multi_class_classifier_Question-FINAL.ipynb))
+  - Text generation
+  - Exercise_Shakespeare_Question ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week4/NLP_Week4_Exercise_Shakespeare_Question.ipynb))
  
 
-![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow/cert.png)
+![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/cert.png)
  
