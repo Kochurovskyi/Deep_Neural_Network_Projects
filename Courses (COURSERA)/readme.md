@@ -92,3 +92,16 @@ In this course you will learn advanced techniques to improve the computer vision
 2. Week2 - [Augmentation: A technique to avoid overfitting](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
 3. Week3 - [Transfer Learning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
 4. Week4 - [Multiclass Classifications](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/7.%20Convolutional%20Neural%20Networks%20in%20TensorFlow)
+
+
+## Course 8. [Natural Language Processing in TensorFlow](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow)
+
+In this course I built natural language processing systems using TensorFlow. You was learning to process text, including tokenizing and representing sentences as vectors, so that they can be input to a neural network. You also was learning to apply RNNs, GRUs, and LSTMs in TensorFlow. Finally, you got to train an  LSTM on existing text to create original poetry!
+
+The Machine Learning course and Deep Learning Specialization from Andrew Ng teach the most important and foundational principles of Machine Learning and Deep Learning. This new deeplearning.ai TensorFlow Specialization teaches you how to use TensorFlow to implement those principles so that you can start building and applying scalable models to real-world problems. To develop a deeper understanding of how neural networks work, we recommend that you take the Deep Learning Specialization.
+
+  1. Week1 - [Tokenizer and pad_sequences APIs in TensorFlow](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week1)
+  2. Week2 - [RNN Models. Introduction](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week2)
+  3. Week3 - [RNN Models. Experiments (GRU, Conv1D, LSTM)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3)
+  4. Week4 - [Text generation](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week4)
+  
