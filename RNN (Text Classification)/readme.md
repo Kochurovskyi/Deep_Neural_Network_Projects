@@ -6,7 +6,6 @@
 * [Model Description](#Model-Description)
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
-* [Image Prediction and result output](#Image-Prediction-and-result-output)
 * [Results and Conclusion](#Results-and-Conclusion)
 
 
@@ -30,7 +29,7 @@ Competitors are to predict the probability that a comment is toxic. A toxic comm
 
 
 ### Model Description
-#### UNet: Convolutional Networks for Biomedical Image Segmentation.
+#### Bidirectional LSTM and Attention.
 Even LSTM cells can’t capture long terms dependencies to arbitrary lengths, they start to perform lesser and lesser as the sequence length increases from about 30 as explained in this paper. Attention, as the name suggests, provides a mechanism where output can ‘attend to’ (focus on) certain input time step for an input sequence of arbitrary length. 
 
 ![LSTM Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/Model.png)
@@ -67,3 +66,6 @@ In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https:
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_GRU.png"/>
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_LSTM.png"/>
 
+### Results and Conclusion
+All these basic models showed more or less the same evaluation performance results on the test set: **accuracy 0.85**, meanwhile advanced RNN (Bidirectional LSTM and Attention) reached which more than just epmpovement
+  
