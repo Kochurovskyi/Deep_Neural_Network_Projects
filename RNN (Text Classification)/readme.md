@@ -60,7 +60,9 @@ In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https:
 - **Conv1D**
 - **GRU**
 - **LSTM**
-[Vanilla]<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Vanila.png"/>
+
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Vanila.png"/>
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Conv1D.png"/>
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_GRU.png"/>
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_LSTM.png"/>
