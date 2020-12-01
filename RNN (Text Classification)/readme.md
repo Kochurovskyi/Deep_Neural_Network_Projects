@@ -25,7 +25,7 @@ Competitors are to predict the probability that a comment is toxic. A toxic comm
 ### Project Structure
 * Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/RNN%20(Text%20Classification))
 * Exploratory Data Analysis Jupiter Notebook [(**EDA_toxic_class_2.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/EDA_Toxic_calss_2.ipynb)
-* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)
+* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)([Script](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/tf.py))
 * Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/requirements.txt)
 
 
