@@ -1,10 +1,9 @@
 # Jigsaw Multilingual Toxic Comment Classification
-## Classification the comments using Recurrent Neural Network (LSTM+Attention)
+## Classification the comments using Recurrent Neural Network (Bidirectional LSTM+Attention)
 ### Table of Contents
 * [Introduction](#Introduction)
 * [Project Structure](#Project-Structure)
 * [Model Description](#Model-Description)
-* [Accuracy Metrics](#Accuracy-Metrics)
 * [Requirements](#Requirements)
 * [Training Run](#Training-Run)
 * [Image Prediction and result output](#Image-Prediction-and-result-output)
@@ -25,34 +24,28 @@ Competitors are to predict the probability that a comment is toxic. A toxic comm
 ### Project Structure
 * Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/RNN%20(Text%20Classification))
 * Exploratory Data Analysis Jupiter Notebook [(**EDA_toxic_class_2.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/EDA_Toxic_calss_2.ipynb)
-* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)([Script](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/tf.py))
+* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)([**Script**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/tf.py))
 * Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/requirements.txt)
 
 
 
 ### Model Description
 #### UNet: Convolutional Networks for Biomedical Image Segmentation.
-For our task experiencely the best option is UNet Architecture of Convolutional Networks for fast and precise segmentation of images. Up to now it has outperformed the prior best method (a sliding-window convolutional for segmentation of neuronal structures) in electron microscopic stacks.
+Even LSTM cells can’t capture long terms dependencies to arbitrary lengths, they start to perform lesser and lesser as the sequence length increases from about 30 as explained in this paper. Attention, as the name suggests, provides a mechanism where output can ‘attend to’ (focus on) certain input time step for an input sequence of arbitrary length. 
 
-![UNet Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/u-net-architecture.png)
-
-### Accuracy Metrics
-It was decided to choose **DICE** coefficient as an accuracy metric for semantic segmentation. 
-The Dice coefficient (DICE), also called the overlap index, is the most used metric in validating medical volume segmentations. In addition to the direct comparison between automatic and ground truth segmentations, it is common to use the DICE to measure reproducibility (repeatability). Using the DICE as a measure of the reproducibility as a statistical validation of manual annotation where segmenters repeatedly annotated the same MRI image, then the pair-wise overlap of the repeated segmentations is calculated using the DICE, which is defined by
-
-![Form](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/Dice_fmr.png)
-
+![LSTM Arhc](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/Model.png)
 
 ### Requirements 
 This implementation is developed using:
-* optparse==1.5.3
-* tqdm 
-* skimage==0.17.2
-* cv2==4.4.0
-* tensorflow==2.3.1
-* matplotlib==3.3.2
-* numpy==1.18.5
-* pandas==1.1.2
+- beautifulsoup4==4.9.3
+- nltk==3.5
+- numpy==1.19.4
+- pandas==1.1.4
+- regex==2020.10.23
+- scikit-learn==0.23.2
+- seaborn==0.11.0
+- tensorflow==2.3.1
+- tqdm==4.51.0
 
 If **pip** is set up on your system, those packages should be able to be fetched and installed by running
 
