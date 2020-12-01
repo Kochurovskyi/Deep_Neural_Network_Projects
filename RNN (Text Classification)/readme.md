@@ -56,5 +56,12 @@ pip install -r requirements.txt
 ### Training Run
 No special requirements or instructions. Just place csv-files into the same folder.
 In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/Toxic_train%20(1).ipynb) with basic RNN models experiments. Here the performance history results running each model for 5 epochs:
-<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Vanila.png"/>
+- **Vanilla RNN**
+- **Conv1D**
+- **GRU**
+- **LSTM**
+[Vanilla]<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Vanila.png"/>
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Conv1D.png"/>
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_GRU.png"/>
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_LSTM.png"/>
 
