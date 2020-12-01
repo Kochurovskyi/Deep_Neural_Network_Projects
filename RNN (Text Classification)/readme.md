@@ -67,5 +67,5 @@ In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https:
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_LSTM.png"/>
 
 ### Results and Conclusion
-All these basic models showed more or less the same evaluation performance results on the test set: **accuracy 0.85**, meanwhile advanced RNN (Bidirectional LSTM and Attention) reached which more than just epmpovement
+All these basic models showed more or less the same evaluation performance results on the test set: **accuracy 0.85**, meanwhile advanced RNN (Bidirectional LSTM and Attention) reached **.91** which more than just improvement.
   
