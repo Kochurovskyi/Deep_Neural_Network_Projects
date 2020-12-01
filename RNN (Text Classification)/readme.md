@@ -54,64 +54,7 @@ pip install -r requirements.txt
 </code></pre>
 
 ### Training Run
-To run correctly the script you should decide which parameters of Model running you will choose. There are only three parameters avalable to be changed which will effect performance and running time of the model:
-* **Image size**. The size of image for preprocessing. The Model will take as an input the images of this size (Image size x Image size). Available options [64, 128, 256]
-* **Channel rate**. Normally U-net architecture contain layers with channel size from 32 to 512, but to save a time during experiments there is an option to reduce/increase channel quantities dividing (multiplicating) by 2. Available options   [0.5 , 1, 2]
-* **Epochs**. Epoch number while model running.  Available options   5 < EPOCHS < 50
-#### How to run Train.py / Predict_masks.py:
-<pre><code>
-usage:  
-Train.py [-s Image Size] [-c Channel rate] [-e EPOCHS]
-Predict_masks.py [-s Image Size]
-</code></pre>
-Sample Command for **Train.py**
-<pre><code>
-usage: py Train.py -s 256 -c 0.5 -e 20
-</code></pre>
-Sample Command for **Predict_masks.py**
-<pre><code>
-usage: py Predict_masks.py -s 256 
-</code></pre>
+No special requirements or instructions. Just place csv-files into the same folder.
+In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/Toxic_train%20(1).ipynb) with basic RNN models experiments. Here the performance history results running each model for 5 epochs:
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Vanila.png"/>
 
-#### **!!!Be careful!!! Image size option for Train.py and Predict_masks.py must be the same!!!**
-
-After a couple experiments it was decided that the best balance performance/time was reached with Image size 256x256, channels rate 1(nums of channels starts from 32 and reach 512), and 30 epochs while training. Here are results:
-
-![Log](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training%20log.png)
-![hist](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/hist.png)
-
-As a result the script will save the loss/accuracy to plot file **hist.png** and model itself to the file **my_UNET.h5** which will be opened in the script **Predict_masks.py** with all parameters for further prediction run.
-
-### Image Prediction and result output
-
-To get the prediction you need to run script **Predict_masks.py** with option [-s Image Size]. The size of the prediction images have to match the size of training image entered as one of the options while **Train.py ** script run. 
-Sample Command for **Predict_masks.py**: 
-
-<pre><code>
-usage: py Predict_masks.py -s 256 
-</code></pre>
-
-
-The script will prepare (resize) the images from the test set and a couple randomly chosen images from the training set firstly. Than it will run prediction and will show some predicted samples from the Training set compering train masks and predicted masks. Than the script will show some example of predicted test images.
-Finally the script will check all 65 test images, predict masks and output results into the folder [(**/output/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/UNet(semantic%20segmentation)/output).
-
-### Results and Conclusion
-#### Train set:
-![(**Random Images from the Train Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/training.png).
-#### Test set:
-![(**Random Images from the Test Set**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/misc_items/testing.png).
-
-At the picture is clearly seen the result which is not so bad, but definitely there is a huge room for experiments and improvement. At the picture is clearly seen that not all nucleis were detected correctly even total accuracy score reached 96.6% . For sure in Biomedicine where people's lives depending on these results this will be not enough.
-So, for the further performance improvement it would be nice to try:
-
-Image Preprocessing:
-*    Image Augmentation
-* Color (Incl. background) adjustment
-* Implement edge detection algorithms 
-
-Model Adjustment: 
-* Implement more channels in each layer
-* Implement ResNet blocks 
-* Meanwhile model complicity grows try to implement Dropout 
-
-and more, and more, and more ...
