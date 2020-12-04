@@ -23,7 +23,7 @@ Competitors are to predict the probability that a comment is toxic. A toxic comm
 ### Project Structure
 * Some miscellaneous data  [(**/misc_items/**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/RNN%20(Text%20Classification))
 * Exploratory Data Analysis Jupiter Notebook [(**EDA_toxic_class_2.ipynb**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/EDA_Toxic_calss_2.ipynb)
-* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/UNet(semantic%20segmentation)/Train.py)([**Script**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/tf.py))
+* Data processing, model training & evaluation Jupiter Notebook [(**Toxic_train_2.py**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/Toxic_train_2.ipynb)([**Script**](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/tf.py))
 * Requirements file [(**requirements.txt**)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/requirements.txt)
 
 
@@ -67,5 +67,7 @@ In the main folder I placed a Jupiter Notebook [**Toxic_train ().ipynb**](https:
 <img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_LSTM.png"/>
 
 ### Results and Conclusion
-All these basic models showed more or less the same evaluation performance results on the test set: **accuracy 0.85**, meanwhile advanced RNN (Bidirectional LSTM and Attention) reached **.91** which more than just improvement.
+All these basic models showed more or less the same evaluation performance results on the test set: **accuracy 0.85**, meanwhile advanced RNN (Bidirectional LSTM and Attention) also reached **.85** probably because of high bias in data set and Multilanguage problem for me is still unreachable.
+
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/RNN%20(Text%20Classification)/misc_items/hist_Complex.png"/>
   
