@@ -105,3 +105,5 @@ The Machine Learning course and Deep Learning Specialization from Andrew Ng teac
   3. Week3 - [RNN Models. Experiments (GRU, Conv1D, LSTM)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3)
   4. Week4 - [Text generation](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week4)
   
+  ## Course 9. [Sequences, Time Series and Prediction]
+  https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction
