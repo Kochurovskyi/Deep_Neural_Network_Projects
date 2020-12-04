@@ -105,3 +105,10 @@ The Machine Learning course and Deep Learning Specialization from Andrew Ng teac
   3. Week3 - [RNN Models. Experiments (GRU, Conv1D, LSTM)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3)
   4. Week4 - [Text generation](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week4)
   
+  ## Course 9. [Sequences, Time Series and Prediction](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction)
+In this course we'll take a look at some of the unique considerations involved when handling sequential time series data -- where values change over time, like the temperature on a particular day, or the number of visitors to your web site. We'll discuss various methodologies for predicting future values in these time series, building on what you've learned in previous courses!
+
+  1. Week1 - [Creating synthetic data and analytical statistic predictions](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week1)
+  2. Week2 - [Data set preparation and basic DNN prediction](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week2)
+  3. Week3 - [Simple RNN, Lambda layer and SGH lr tuning](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week3)
+  4. Week4 - [Complex RNN (Conv1D, LSTM, Dense, Lambda layers)](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/tree/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week4)

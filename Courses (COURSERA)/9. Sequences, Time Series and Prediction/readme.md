@@ -1,26 +1,25 @@
 # Natural Language Processing in TensorFlow
-In this course I built natural language processing systems using TensorFlow. You was learning to process text, including tokenizing and representing sentences as vectors, so that they can be input to a neural network. You also was learning to apply RNNs, GRUs, and LSTMs in TensorFlow. Finally, you got to train an  LSTM on existing text to create original poetry!
+In this course I will take a look at some of the unique considerations involved when handling sequential time series data -- where values change over time, like the temperature on a particular day, or the number of visitors to your web site. We'll discuss various methodologies for predicting future values in these time series, building on what you've learned in previous courses!
 
-The Machine Learning course and Deep Learning Specialization from Andrew Ng teach the most important and foundational principles of Machine Learning and Deep Learning. This new deeplearning.ai TensorFlow Specialization teaches you how to use TensorFlow to implement those principles so that you can start building and applying scalable models to real-world problems. To develop a deeper understanding of how neural networks work, we recommend that you take the Deep Learning Specialization.
 
 ## Week 1:
-  - Tokenizer and pad_sequences APIs in TensorFlow ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week1/Course_3_Week_1_Lesson_3.ipynb))
-  - Tokenization and pad_sequences prctice ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week1/Course_3_Week_1_Exercise_question.ipynb))
+  -  Creating synthetic data ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week1/S%2BP_Week_1_Lesson_2.ipynb))
+  - Analytical statistic predictions ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week1/Week_1_Exercise_Question.ipynb))
   
 ## Week 2:
- - RNN Models. Introduction
- -  GlobalAveragePooling1D() simple RNN model ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week2/Course_3_Week_2_Exercise_Question.ipynb))
+ - Data set preparation ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week2/S%2BP_Week_2_Lesson_1.ipynb))
+ - Basic DNN prediction ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week2/S%2BP_Week_2_Exercise_Question.ipynb))
 
   
 ## Week 3:
-- RNN Models. Experiments (GRU, Conv1D, LSTM) ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3/Course_3_Week_3_Lesson_2d.ipynb))
-- RNN Models Advanced ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week3/NLP_Course_Week_3_Exercise.ipynb))
+- Lambda layer and SGH lr tuning ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week3/S%2BP_Week_3_Lesson_4_LSTM.ipynb))
+- Simple RNN ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week3/S%2BP_Week_3_Exercise_Question.ipynb))
 
   
 ## Week 4:
-  - Text generation
-  - Exercise. Shakespeare Question ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/week4/NLP_Week4_Exercise_Shakespeare_Question.ipynb))
+  - Complex RNN - Sunspots(Conv1D, LSTM, Dense, Lambda layers) ([Lesson](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week4/S%2BP_Week_4_Lesson_5.ipynb))
+  - Complex RNN - Daily Tamperature ([Practical exercise](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/week4/S%2BP_Week_4_Exercise_Question.ipynb))
  
 
-![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/8.%20Natural%20Language%20Processing%20in%20TensorFlow/cert.png)
+![Cert.](https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/9.%20Sequences%2C%20Time%20Series%20and%20Prediction/cert.png)
  
