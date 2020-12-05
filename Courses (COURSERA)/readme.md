@@ -1,6 +1,6 @@
 
-# [Deep Learning & TensorFlow Developer Specialization on Coursera]
-<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/cert_%2B.png" alt="drawing" width="600"/>
+# Deep Learning & TensorFlow Developer Specialization on Coursera
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/cert_%2B.png" alt="drawing" width="1200"/>
 
 This is my personal achievements at this specialization. The course covers deep learning from begginer level to advanced. Highly recommend anyone wanting to break into AI. 
 
