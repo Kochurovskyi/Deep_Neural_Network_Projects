@@ -1,5 +1,7 @@
 
-# [Deep Learning Specialization on Coursera](https://www.coursera.org/specializations/deep-learning)
+# [Deep Learning & TensorFlow Developer Specialization on Coursera]
+<img src="https://github.com/Kochurovskyi/Deep_Neural_Network_Projects/blob/main/Courses%20(COURSERA)/cert_%2B.png" alt="drawing" width="600"/>
+
 This is my personal achievements at this specialization. The course covers deep learning from begginer level to advanced. Highly recommend anyone wanting to break into AI. 
 
 Instructor: [Andrew Ng, DeepLearning.ai](https://www.deeplearning.ai/)
